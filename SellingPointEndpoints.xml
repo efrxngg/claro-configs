@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="80921bfc-01d3-4ece-973b-2af2f82266bf" activeEnvironment="Default" name="SellingPoint - Endpoints" soapui-version="5.7.2" abortOnError="false" runType="SEQUENTIAL" resourceRoot="" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="6a04262e-1960-4f6f-a531-57bd8716056e" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://sellingpoint.claro.com.ec" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint></con:endpoints><con:resource name="getResources" path="/PT_pdaOne/pda/v1/getResources" id="fff8bef1-dbfb-4782-a521-dfb17498418c"><con:settings/><con:parameters/><con:method name="GetAllBrands" id="b6996411-754d-475f-a883-4f025951f02e" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:get="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/getResources">get:Response</con:element></con:representation><con:request name="request" id="ac22aab2-5e02-4a2d-b812-7a75162e57bb" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/getResources</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method><con:method name="GetResourceForBrand" id="1a5a84a9-c6c4-4fdb-8ad2-31ec4e910685" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:get="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/getResources">get:Response</con:element></con:representation><con:request name="request" id="bcf5a05d-d64b-4627-94f9-5c44ae54f9b2" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{
+    "brandId": "HUAWEI",
+    "beginRow": "0",
+    "endRow": "20"
+}</con:request><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/getResources</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="listResourceOffer" path="/PT_pdaOne/pda/v1/listResourceOffer" id="5da86758-8c93-4e5e-850d-9dcd119245ec"><con:settings/><con:parameters/><con:method name="GetFinancingByResource" id="3d362217-6df2-458c-9b22-e04e9d157857" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:lis="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/listResourceOffer">lis:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request" id="b5ff860a-7e13-4b51-98ff-3ddf7099e4cc" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{
+    "serviceNumber": "",
+    "offeringId": "100011235",
+    "mainOfferingId": "100095592",
+    "custId": "1043536160",
+    "skuCode": "000000000070027895",
+    "paymentMode": "3"
+}</con:request><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/listResourceOffer</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="offer" path="/PT_pdaOne/pda/v1/offer" id="de69489e-0d83-4620-869e-1eafcf2fb6a2"><con:settings/><con:parameters><con:parameter><con:name>tecnology</con:name><con:value>GPON</con:value><con:style>QUERY</con:style><con:default>GPON</con:default></con:parameter><con:parameter><con:name>offeringSubCategory</con:name><con:value>regular|adulto_regular|todos</con:value><con:style>QUERY</con:style><con:default>regular|adulto_regular|todos</con:default></con:parameter></con:parameters><con:method name="GetOffersFMCByTecnolgyAndOffSubCategory" id="dee94b6f-0a6c-454a-8048-4a3fd1f44573" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:off="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/offer">off:Response</con:element></con:representation><con:request name="Request" id="12b54cc2-010f-4a31-a4e9-1f23c18ee810" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/offer</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="offerFMC" path="/PT_pdaOne/pda/v1/offerFMC/{id}" id="7bba12a7-d111-4ed6-b390-16676ef81d12"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:style>TEMPLATE</con:style></con:parameter></con:parameters><con:method name="GetContentOfferFMCById" id="421d02a5-3ce8-4998-86e6-c3af43a3ae8b" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ns="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/offerFMC/100095592">ns:Response</con:element></con:representation><con:request name="Request" id="4125c8e7-b95d-4996-b507-001d5825e4c9" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/offerFMC/100095592</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="100087234" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>id</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="offerById" path="/PT_pdaOne/pda/v1/offerById/{id}" id="5dded83e-80d9-4b90-80f6-c213ae00f132"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:style>TEMPLATE</con:style></con:parameter></con:parameters><con:method name="GetAllSupplementaryServicesByOfferId" id="f51f6a20-c725-406f-9948-24fdc07b1c00" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ns="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/offerById/100095590">ns:Response</con:element></con:representation><con:request name="Request" id="7fe47a7d-01bb-46fe-87be-37b58c695e6b" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/offerById/100095590</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="100087231" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>id</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="catalogue" path="/PT_pdaOne/pda/v1/catalogue/{type}" id="5cdcc20a-a551-46cd-8af1-d839a2527c0e"><con:settings/><con:parameters><con:parameter><con:name>type</con:name><con:value/><con:style>TEMPLATE</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Requests" id="4497628b-35d0-4a5d-8184-09db7269eeb8" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:gen="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/catalogue/GENDER">gen:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="GENDER" id="942bd8d4-dce9-46cd-902e-20fa11d66e23" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/catalogue/GENDER</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="type" value="GENDER" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>type</con:entry></con:parameterOrder></con:request><con:request name="SEX" id="942bd8d4-dce9-46cd-902e-20fa11d66e23" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/catalogue/GENDER</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="type" value="SEX" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>type</con:entry></con:parameterOrder></con:request><con:request name="NATIONALITY" id="942bd8d4-dce9-46cd-902e-20fa11d66e23" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/catalogue/GENDER</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="type" value="NATIONALITY" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>type</con:entry></con:parameterOrder></con:request><con:request name="CREDIT_CARD" id="942bd8d4-dce9-46cd-902e-20fa11d66e23" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/catalogue/GENDER</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="type" value="CREDIT_CARD" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>type</con:entry></con:parameterOrder></con:request><con:request name="BANK" id="942bd8d4-dce9-46cd-902e-20fa11d66e23" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/catalogue/GENDER</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="type" value="BANK" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>type</con:entry></con:parameterOrder></con:request><con:request name="MARITAL_STATUS" id="942bd8d4-dce9-46cd-902e-20fa11d66e23" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/catalogue/GENDER</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="type" value="MARITAL_STATUS" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>type</con:entry></con:parameterOrder></con:request><con:request name="tecnology" id="942bd8d4-dce9-46cd-902e-20fa11d66e23" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/catalogue/GENDER</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="type" value="tecnology" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>type</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="geographicLocation" path="/PT_pdaOne/pda/v1/geographicLocation/{type}" id="0eeb0b5a-b87f-4c8b-b721-1b365a956894"><con:settings/><con:parameters><con:parameter><con:name>parentId</con:name><con:value>150</con:value><con:style>QUERY</con:style><con:default>150</con:default></con:parameter><con:parameter><con:name>type</con:name><con:value/><con:style>TEMPLATE</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="catalogue" id="14bb8580-c609-4e1e-a9d1-b33d980a2463" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:prov="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/PROVINCE">prov:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html; charset=UTF-8</con:mediaType><con:status>404</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="PROVINCES" id="5d37224b-8b4e-48a7-8d37-ac72ad23c50c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/PROVINCE</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="type" value="PROVINCE" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>parentId</con:entry><con:entry>type</con:entry></con:parameterOrder></con:request><con:request name="PROVINCE_ONE" id="5d37224b-8b4e-48a7-8d37-ac72ad23c50c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/PROVINCE</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="type" value="PROVINCE_ONE"/>
+  <con:entry key="parentId" value="101001"/>
+</con:parameters><con:parameterOrder><con:entry>parentId</con:entry><con:entry>type</con:entry></con:parameterOrder></con:request></con:method><con:method name="CANTON_ONE" id="349711e5-4297-4a20-9593-4a70b2a51dc8" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:can="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/CANTON_ONE">can:Response</con:element></con:representation><con:request name="Request" id="bb310300-a093-4415-87ef-d31854dd23ae" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/CANTON_ONE</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="type" value="CANTON_ONE"/>
+  <con:entry key="parentId" value="101001001"/>
+</con:parameters><con:parameterOrder><con:entry>parentId</con:entry><con:entry>type</con:entry></con:parameterOrder></con:request></con:method><con:method name="PARISH_ONE" id="fe135704-22dd-45a4-9939-2b4111aa9b67" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:par="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/PARISH_ONE">par:Response</con:element></con:representation><con:request name="Request" id="fc1a9db4-bd3a-4c82-89ac-272b86646816" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/PARISH_ONE</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="type" value="PARISH_ONE"/>
+  <con:entry key="parentId" value="101001001004"/>
+</con:parameters></con:request></con:method><con:method name="DIRECCIONESXCUSTOMERID" id="553c2d5f-1a45-4c5a-ac16-f27bb8b9d85f" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:dir="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/DIRECCIONESXCUSTOMERID">dir:Response</con:element></con:representation><con:request name="Request" id="c5c97d5e-dd51-4dd9-a547-90bb5192ec13" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/DIRECCIONESXCUSTOMERID</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="type" value="DIRECCIONESXCUSTOMERID"/>
+  <con:entry key="parentId" value="1032713939"/>
+</con:parameters></con:request></con:method><con:method name="CANTON" id="d5421b25-02f9-4cb3-88c6-a0c68b21eb1b" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:can="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/CANTON">can:Response</con:element></con:representation><con:request name="Request 1" id="99e290e6-ffef-4050-8494-7ea25fb150ce" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/CANTON</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="type" value="CANTON"/>
+  <con:entry key="parentId" value="150009"/>
+</con:parameters></con:request></con:method><con:method name="SECTOR" id="c0575c16-5e6e-4a19-b6b6-fdcfc8689b38" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:sec="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/SECTOR">sec:Response</con:element></con:representation><con:request name="Request" id="fdee9287-c8e9-4ce9-a1b5-ac8acedb96f0" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/SECTOR</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="type" value="SECTOR"/>
+  <con:entry key="parentId" value="150000001"/>
+</con:parameters></con:request></con:method><con:method name="COMBINATION" id="06d50001-d0bc-49e6-8a1c-32371bc71407" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:com="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/COMBINATION">com:Response</con:element></con:representation><con:request name="Request" id="7f1f4f5d-28a7-47e9-a5c4-c9d026a41a21" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/COMBINATION</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="type" value="COMBINATION"/>
+  <con:entry key="parentId" value="0000001231"/>
+</con:parameters></con:request></con:method><con:method name="STREET" id="429d1967-c7b3-46be-9180-775a56356e86" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:str="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/STREET">str:Response</con:element></con:representation><con:request name="Request 1" id="94134ada-d555-4748-bd5d-1626ee8645a1" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/STREET</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="type" value="STREET"/>
+  <con:entry key="parentId" value="0000001231"/>
+</con:parameters></con:request></con:method><con:method name="PARISHXSECTOR" id="e4dc016e-ec10-475e-a9f4-47a694ebb9b1" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:par="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/PARISHXSECTOR">par:Response</con:element></con:representation><con:request name="Request 1" id="f203ef75-3cac-4674-8e68-ae00b142666f" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/geographicLocation/PARISHXSECTOR</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="type" value="PARISHXSECTOR"/>
+  <con:entry key="parentId" value="0000001231"/>
+</con:parameters></con:request></con:method></con:resource><con:resource name="billCycle" path="/PT_pdaOne/pda/v1/billCycle" id="cc3a6a35-8ec8-40ce-a3be-b677644bca2f"><con:settings/><con:parameters/><con:method name="GetBillCycle" id="500307c7-6943-4914-a759-6ea3a7ed7294" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:bil="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/billCycle">bil:Response</con:element></con:representation><con:request name="Request" id="000ee736-c37a-4d1b-804e-d5243da11b04" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/billCycle</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="customer" path="/PT_pdaOne/pda/v1/customer/" id="f3985e76-4276-4e66-b828-cac02b6daf8e"><con:settings/><con:parameters><con:parameter><con:name>idType</con:name><con:style>QUERY</con:style></con:parameter><con:parameter><con:name>idNumber</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="FindCustomerByIdentificationTypeAndNumber" id="36fd0a1e-dfcf-4977-bbef-e55df7076c2b" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:cus="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/customer/">cus:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html; charset=UTF-8</con:mediaType><con:status>404</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="Request" id="58e6720f-b3df-48f2-8202-d102b1688e2f" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/customer/</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="idType" value="CED"/>
+  <con:entry key="idNumber" value="0954943114"/>
+</con:parameters><con:parameterOrder><con:entry>idType</con:entry><con:entry>idNumber</con:entry></con:parameterOrder></con:request></con:method><con:method name="Create" id="0dfeb115-a9bc-41ad-9618-c72faf03ef28" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="3f1b65c9-45a6-42f8-a3b8-1d583e6b452c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{
+    "customer": {
+        "customerInformation": {
+            "level": "2",
+            "segment": "Normal",
+            "region": "0",
+            "typeOfTaxpayer": "1",
+            "sfoc": "",
+            "taxExemptFlag": "1",
+            "property": [
+                {
+                    "id": "1",
+                    "value": "1"
+                },
+                {
+                    "id": "2",
+                    "value": "2"
+                }
+            ]
+        },
+        "certification": {
+            "idType": "CED",
+            "idNumber": "0954943000",
+            "address": "1",
+            "issuingCountry": "ECU",
+            "issuingDate": "19920602"
+        },
+        "individual": {
+            "title": "0",
+            "gender": "1",
+            "sex": "M",
+            "birthday": "20020926",
+            "addressOfbirth": "",
+            "marriedStatus": "1",
+            "education": "2",
+            "nationality": "1060",
+            "occupation": "58",
+            "language": "2047",
+            "companyName": "",
+            "name": {
+                "firstName": "EFREN PATRICIO",
+                "middleName": "EFREN PATRICIO Galarza CHAVEZ",
+                "lastName": "Galarza",
+                "secondLastName": "CHAVEZ",
+                "fullName": "EFREN PATRICIO Galarza CHAVEZ"
+            }
+        },
+        "contact": [
+            {
+                "type": "Email",
+                "value": "efren.galarza@gizlocorp.com"
+            },
+            {
+                "type": "WorkPhone",
+                "value": "997188086"
+            },
+            {
+                "type": "MobilePhone",
+                "value": "0997188086"
+            },
+            {
+                "type": "HomePhone",
+                "value": "997188086"
+            }
+        ],
+        "contactPerson": [
+            {
+                "type": "",
+                "idType": "CED",
+                "idNumber": "0954943114",
+                "name": {
+                    "firstName": "TEST",
+                    "middleName": "TEST TEST TEST",
+                    "lastName": "TEST",
+                    "secondLastName": "TEST",
+                    "fullName": "TEST TEST TEST"
+                },
+                "contactInformation": [
+                    {
+                        "type": "WorkPhone",
+                        "value": "042195219"
+                    },
+                    {
+                        "type": "MobilePhone",
+                        "value": "0997188086"
+                    }
+                ]
+            }
+        ],
+        "address": [
+            {
+                "geographicLocation": {
+                    "name": "some text",
+                    "type": "some text",
+                    "geographicPoint": {
+                        "accuracy": "some text",
+                        "spatialRef": "some text",
+                        "x": "some text",
+                        "y": "some text",
+                        "z": "some text"
+                    }
+                },
+                "id": "5557",
+                "formatedType": "1",
+                "postalCode": "",
+                "addressInformation": {
+                    "unformatedAddress": "",
+                    "formatedAddress": {
+                        "province": "101001001",
+                        "city": "101001001006",
+                        "parish": "201709210390",
+                        "street": "1",
+                        "block": "",
+                        "houseNo": "1",
+                        "urbanization1": "1",
+                        "POBox": "",
+                        "typeOfAddress": "3",
+                        "crossStreet": "1",
+                        "reservedField1": "",
+                        "country": "101001",
+                        "building": "",
+                        "urbanization2": "",
+                        "stage": "",
+                        "reservedField2": "",
+                        "reservedField3": "",
+                        "reservedField4": "",
+                        "reservedField5": "",
+                        "reservedField6": ""
+                    }
+                },
+                "addressPurpose": {
+                    "purpose": "home"
+                }
+            },
+            {
+                "geographicLocation": {
+                    "name": "some text",
+                    "type": "some text",
+                    "geographicPoint": {
+                        "accuracy": "some text",
+                        "spatialRef": "some text",
+                        "x": "some text",
+                        "y": "some text",
+                        "z": "some text"
+                    }
+                },
+                "id": "5557",
+                "formatedType": "1",
+                "postalCode": "",
+                "addressInformation": {
+                    "unformatedAddress": "",
+                    "formatedAddress": {
+                        "province": "101001001",
+                        "city": "101001001006",
+                        "parish": "201709210390",
+                        "street": "1",
+                        "block": "",
+                        "houseNo": "1",
+                        "urbanization1": "1",
+                        "POBox": "",
+                        "typeOfAddress": "3",
+                        "crossStreet": "1",
+                        "reservedField1": "",
+                        "country": "101001",
+                        "building": "",
+                        "urbanization2": "",
+                        "stage": "",
+                        "reservedField2": "",
+                        "reservedField3": "",
+                        "reservedField4": "",
+                        "reservedField5": "",
+                        "reservedField6": ""
+                    }
+                },
+                "addressPurpose": {
+                    "purpose": "office"
+                }
+            }
+        ]
+    }
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="idNumber" value="" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>idType</con:entry><con:entry>idNumber</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="convergedCustomer" path="/PT_pdaOne/pda/v1/convergedCustomer" id="4dbd29ab-6a68-4655-9244-7d1fd4586821"><con:settings/><con:parameters/><con:method name="isConvergedAndElderlyByIdentTypeAndNumberAndBirthDate" id="dbb2237e-a4b0-4bf5-b2f6-f8282c43eaf5" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:con1="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/convergedCustomer">con1:Response</con:element></con:representation><con:request name="Request" id="76cca7cf-d61d-4b5d-9109-6110ac28a8a3" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{
+    "birthDate": "2002-09-26",
+    "certificateId": "0900000000",
+    "certificateIdType": "CED"
+}</con:request><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/convergedCustomer</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="queryMatchPromotion" path="/PT_pdaOne/pda/v1/queryMatchPromotion" id="d038481b-1a17-469a-9753-0e31b53d55d2"><con:settings/><con:parameters/><con:method name="GetPromotionsByOfferingId" id="f33b5012-8f8c-406d-accc-b51f5603b475" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:quer="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/queryMatchPromotion">quer:Response</con:element></con:representation><con:request name="Request" id="8bda7aac-62c8-4ea4-83b1-b9d3ebe4b87c" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{\r
+   "accountPaymentMode" : "3",\r
+   "nPlayType" : "1",\r
+   "offeringInstInfo" : [\r
+      {\r
+         "offeringId" : "100095590"\r
+      }\r
+   ],\r
+   "serviceAccountType" : "4",\r
+   "subNetWorkType" : [ ],\r
+   "flagFmc" : "Y"\r
+}</con:request><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/queryMatchPromotion</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="proyectOrdering" path="/PT_pdaOne/pda/v1/proyectOrdering" id="7048000c-7251-479a-84f6-93d91d22f605"><con:settings/><con:parameters/><con:resource name="getProjects" path="{username}" id="2d931d48-8c1a-4c7a-b753-367408cc87e9"><con:settings/><con:parameters><con:parameter><con:name>username</con:name><con:value>username</con:value><con:style>TEMPLATE</con:style><con:default>username</con:default></con:parameter><con:parameter><con:name>seller</con:name><con:value/><con:style>QUERY</con:style><con:default/></con:parameter></con:parameters><con:method name="GetAllProjects" id="141384d8-6378-4c15-a78b-6eefb190b039" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ryag="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/proyectOrdering/RYAGUALM">ryag:Response</con:element></con:representation><con:request name="Request 1" id="e1cc0a3c-5866-4dfa-b4a0-07c2027f9a05" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/proyectOrdering/RYAGUALM</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="username" value="RYAGUALM" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:request></con:method></con:resource><con:method name="CreateProjectOrder" id="9243a4c0-28ad-47d0-96bd-572729ffa3c2" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="75b0c85e-53b9-4bee-9238-c6562afe4cdd" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{
+    "customer": {
+        "customerId": "44051448016",
+        "executive": "AACOSTAN",
+        "seller": null,
+        "distributor": null,
+        "supplementarySale": false,
+        "convergencySale": false,
+        "iptvOttSale": false,
+        "subscriber": [
+            {
+                "serviceNumber": "",
+                "serviceLan": "E",
+                "writtenLan": "2047",
+                "csrUser": "AACOSTAN",
+                "opType": "A",
+                "deliveryFlag": "",
+                "dealerUserFlag": "No",
+                "promotionFlag": "0",
+                "autoControlType": "",
+                "password": "741256",
+                "property": [
+                    {
+                        "id": "propiedad1",
+                        "value": "1"
+                    },
+                    {
+                        "id": "propiedad2",
+                        "value": "2"
+                    }
+                ],
+                "primaryOffer": {
+                    "id": "150440",
+                    "isPrimary": "Y",
+                    "offeringCategory": "OFERTA PRIMARIA",
+                    "offeringCode": "150440",
+                    "offeringName": "MI Claro 100 Megas FMC GPON B1",
+                    "price": "26.92",
+                    "priceAfterTax": "30.15",
+                    "priceBeforeTax": "26.92",
+                    "offerType": "INTERNET",
+                    "operType": "1"
+                },
+                "optionalOffer": [],
+                "defaultServices": [],
+                "mandatoryServices": [],
+                "resourceOffer": []
+            },
+            {
+                "serviceNumber": "",
+                "serviceLan": "E",
+                "writtenLan": "2047",
+                "csrUser": "AACOSTAN",
+                "opType": "A",
+                "deliveryFlag": "",
+                "dealerUserFlag": "No",
+                "promotionFlag": "0",
+                "autoControlType": "",
+                "password": "741256",
+                "property": [
+                    {
+                        "id": "propiedad1",
+                        "value": "1"
+                    },
+                    {
+                        "id": "propiedad2",
+                        "value": "2"
+                    }
+                ],
+                "primaryOffer": {
+                    "id": "150456",
+                    "isPrimary": "Y",
+                    "offeringCategory": "OFERTA PRIMARIA",
+                    "offeringCode": "150456",
+                    "offeringName": "Hogar Sin Limites FMC GPON B2",
+                    "price": "8.08",
+                    "priceAfterTax": "9.06",
+                    "priceBeforeTax": "8.08",
+                    "offerType": "TELEFONIA",
+                    "operType": "1"
+                },
+                "optionalOffer": [],
+                "defaultServices": [],
+                "mandatoryServices": [
+                    {
+                        "id": "56209",
+                        "code": "56209",
+                        "category": "VOZ_ILIMITADO",
+                        "name": "Llamadas Hogar Sin Limites GPON OFFNET_",
+                        "isPrimary": "N",
+                        "price": "0",
+                        "text": "56209-Llamadas Hogar Sin Limites GPON OFFNET_ 0",
+                        "type": "N",
+                        "flag": "False",
+                        "recurringFlag": "Y"
+                    },
+                    {
+                        "id": "56208",
+                        "code": "56208",
+                        "category": "VOZ_ILIMITADO",
+                        "name": "Llamadas Hogar Sin Limites GPON ONNET_",
+                        "isPrimary": "N",
+                        "price": "0",
+                        "text": "56208-Llamadas Hogar Sin Limites GPON ONNET_ 0",
+                        "type": "N",
+                        "flag": "False",
+                        "recurringFlag": "Y"
+                    }
+                ],
+                "resourceOffer": []
+            }
+        ],
+        "appointment": {
+            "scheduleDate": "",
+            "scheduleTime": "",
+            "bucket": ""
+        },
+        "deposit": {
+            "depositAmount": ""
+        },
+        "installAddress": {
+            "formatedAddress": {
+                "standardAddressId": "",
+                "country": "150|ECUADOR",
+                "province": "150000|GUAYAS",
+                "city": "150000001|GUAYAQUIL",
+                "parish": "24|TARQUI",
+                "sector": "0000001231|ALBORADA 10",
+                "combination": "305|PARROQUIA+REFERENCIA",
+                "street": "",
+                "crossStreet": "",
+                "block": "",
+                "houseNo": "",
+                "reservedField1": "",
+                "building": "",
+                "floorNo": "",
+                "apartamentNo": "",
+                "reference": "TRACKING REQUESTS",
+                "latitude": "-2.1978",
+                "longitude": "-79.8764"
+            },
+            "tecnologyType": "GPON"
+        },
+        "account": {
+            "acctId": "",
+            "accountInformation": {
+                "smsNo": "0997188086",
+                "email": "efren.galarza@gizlocorp.com",
+                "lastName": "GALARZA",
+                "secondLastName": "CHAVEZ",
+                "firstName": "EFREN PATRICIO",
+                "fullName": "EFREN PATRICIO GALARZA CHAVEZ",
+                "paymentType": "1",
+                "paymentMode": "3",
+                "subLanguage": "",
+                "creditLimitValue": "",
+                "autoPaymentChannel": [],
+                "billMedium": [
+                    {
+                        "type": "Email",
+                        "contentMode": "Electronic bill"
+                    },
+                    {
+                        "type": "Paper",
+                        "contentMode": "Physical invoice"
+                    }
+                ],
+                "property": [],
+                "billCycleType": "0"
+            },
+            "address": [
+                {
+                    "addressInformation": {
+                        "unformatedAddress": "",
+                        "formatedAddress": {
+                            "province": "101001001",
+                            "city": "101001001006",
+                            "parish": "201709210390",
+                            "street": "1",
+                            "block": "",
+                            "houseNo": "1",
+                            "urbanization1": "1",
+                            "POBox": "",
+                            "typeOfAddress": "3",
+                            "crossStreet": "1",
+                            "reservedField1": "",
+                            "country": "101001",
+                            "building": "",
+                            "urbanization2": "",
+                            "stage": "",
+                            "reservedField2": "",
+                            "reservedField3": "",
+                            "reservedField4": "",
+                            "reservedField5": "",
+                            "reservedField6": ""
+                        }
+                    },
+                    "addressPurpose": {
+                        "purpose": "billAddress"
+                    }
+                },
+                {
+                    "addressInformation": {
+                        "unformatedAddress": "",
+                        "formatedAddress": {
+                            "province": "101001001",
+                            "city": "101001001006",
+                            "parish": "201709210390",
+                            "street": "1",
+                            "block": "",
+                            "houseNo": "1",
+                            "urbanization1": "1",
+                            "POBox": "",
+                            "typeOfAddress": "3",
+                            "crossStreet": "1",
+                            "reservedField1": "",
+                            "country": "101001",
+                            "building": "",
+                            "urbanization2": "",
+                            "stage": "",
+                            "reservedField2": "",
+                            "reservedField3": "",
+                            "reservedField4": "",
+                            "reservedField5": "",
+                            "reservedField6": ""
+                        }
+                    },
+                    "addressPurpose": {
+                        "purpose": "deliveryAddress"
+                    }
+                }
+            ]
+        },
+        "fmcSale": true,
+        "groupName": "2 Play Mi Claro 100 Megas y Hogar Sin Limites GPON NP2",
+        "groupOfferingInsts": [
+            {
+                "offeringBasicInfo": {
+                    "offeringId": "150428"
+                },
+                "primaryFlag": "Y",
+                "operType": "1"
+            }
+        ],
+        "orderInfo": {
+            "feeItemInfo": [
+                {
+                    "amount": "20",
+                    "feeType": "Y",
+                    "payMode": "1"
+                }
+            ],
+            "orderBaseInfo": {
+                "remark": "",
+                "reqApplyType": "0"
+            },
+            "property": []
+        },
+        "changeFmcOffer": false,
+        "convergent": false,
+        "bank": false,
+        "invoice": false,
+        "olderAdult": false,
+        "customerDisability": false
+    },
+    "images": {
+        "imgClienteFirma": "iVBORw0KGgoAAAANSUhEUgAAA4QAAAEsCAYAAACbnn2RAAAAAXNSR0IArs4c6QAAGnhJREFUeF7t3U2O3NYVBtDnHWQHdoAsI4DtHWSakVorSAb2WDIyzCJannkPGUjZRWZK5l5E+hpNgKJZ3fXD4s/7DoFASNJVfPfcO/nwWHxfNRcBAgQIECBAgAABAgQIRAp8FVm1ogkQIECAAAECBAgQIECgCYSGgAABAgQIECBAgAABAqECAmFo45VNgAABAgQIECBAgAABgdAMECBAgAABAgQIECBAIFRAIAxtvLIJECBAgAABAgQIECAgEJoBAgQIECBAgAABAgQIhAoIhKGNVzYBAgQIECBAgAABAgQEQjNAgAABAgQIECBAgACBUAGBMLTxyiZAgAABAgQIECBAgIBAaAYIECBAgAABAgQIECAQKiAQhjZe2QQIECBAgAABAgQIEBAIzQABAgQIECBAgAABAgRCBQTC0MYrmwABAgQIECBAgAABAgKhGSBAgAABAgQIECBAgECogEAY2nhlEyBAgAABAgQIECBAQCA0AwQIECBAgAABAgQIEAgVEAhDG69sAgQIECBAgAABAgQICIRmgAABAgQIECBAgAABAqECAmFo45VNgAABAgQIECBAgAABgdAMECBAgAABAgQIECBAIFRAIAxtvLIJECBAgAABAgQIECAgEJoBAgQIECBAgAABAgQIhAoIhKGNVzYBAgQIECBAgAABAgQEQjNAgAABAgQIECBAgACBUAGBMLTxyiZAgAABAgQIECBAgIBAaAYIECBAgAABAgQIECAQKiAQhjZe2QQIECBAgAABAgQIEBAIzQABAgQIECBAgAABAgRCBQTC0MYrmwABAgQIECBAgAABAgKhGSBAgAABAgQIECBAgECogEAY2nhlEyBAgAABAgQIECBAQCA0AwQIECBAgAABAgQIEAgVEAhDG69sAgQIECBAgAABAgQICIRmgAABAgQIECBAgAABAqECAmFo45VNgAABAgQIECBAgAABgdAMECBAgAABAgQIECBAIFRAIAxtvLIJECBAgAABAgQIECAgEJoBAgQIECBAgAABAgQIhAoIhKGNVzYBAgQIECBAgAABAgQEQjNAgAABAgQIECBAgACBUAGBMLTxyiZAgAABAgQIECBAgIBAaAYIECBAgAABAgQIECAQKiAQhjZe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",
+        "imgCedulaCliente1": "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",
+        "imgCedulaCliente2": "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",
+        "imgFotoLugar": "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",
+        "imgPlanillaSB": "",
+        "imgFacturaOtros": ""
+    }
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="validateCoverage" path="/PT_pdaOne/pda/v1/validateCoverage" id="7b7271f4-cada-480d-b45d-9bfaa9f41041"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value>115215</con:value><con:style>QUERY</con:style><con:default>115215</con:default></con:parameter></con:parameters><con:method name="Method 1" id="55603280-0df3-4b72-8cee-ca782149a4ee" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="fed3439c-6bc8-491a-81c3-bb3edcf159f4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{
+    "technology_type": "GPON",
+    "customerId": "44051448016",
+    "address": {
+        "property": [
+            {
+                "id": "BranchName",
+                "value": "TRACKING REQUESTs"
+            },
+            {
+                "id": "Country",
+                "value": "150"
+            },
+            {
+                "id": "Province",
+                "value": "150000"
+            },
+            {
+                "id": "City",
+                "value": "150000001"
+            },
+            {
+                "id": "Parish",
+                "value": "24"
+            },
+            {
+                "id": "Sector",
+                "value": "0000001231"
+            },
+            {
+                "id": "Type of Address",
+                "value": "305"
+            },
+            {
+                "id": "CALLE P",
+                "value": null
+            },
+            {
+                "id": "CALLE S",
+                "value": null
+            },
+            {
+                "id": "MANZANA",
+                "value": ""
+            },
+            {
+                "id": "NUMERO",
+                "value": ""
+            },
+            {
+                "id": "EDIFICIO",
+                "value": null
+            },
+            {
+                "id": "PISOBLOQUE",
+                "value": null
+            },
+            {
+                "id": "OFICINADEPARTAMENTO",
+                "value": null
+            },
+            {
+                "id": "REFERENCIA",
+                "value": "TRACKING REQUESTS"
+            },
+            {
+                "id": "latitud",
+                "value": "-2.1978"
+            },
+            {
+                "id": "longitud",
+                "value": "-79.8764"
+            }
+        ]
+    }
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="validateInitialCredit" path="/PT_pdaOne/pda/v1/validateInitialCredit" id="28db02c8-b60f-4cc3-96d9-804ea6e47f7b"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value>115215</con:value><con:style>QUERY</con:style><con:default>115215</con:default></con:parameter></con:parameters><con:method name="Method 1" id="37b2b3ca-3a38-4c8d-a872-7ca58fa8d8c8" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="f810a3cd-598e-40d3-9c43-acc027c5eaf1" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{
+    "identificationType": "CED",
+    "identificationNumber": "0954943100"
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="validateblackListCarrusel" path="/PT_pdaOne/pda/v1/validateblackListCarrusel" id="917c59e0-cc3e-4b01-bea3-f74ea358d094"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value>115215</con:value><con:style>QUERY</con:style><con:default>115215</con:default></con:parameter></con:parameters><con:method name="Method 1" id="dc5998f7-4152-4d3a-82db-89fddf0ad6e0" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="78f1a786-1df2-4350-97bf-193284bf7df8" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{
+    "customerId": "44051448016"
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="validateCreditEngine" path="/validateCreditEngine" id="9ff1273b-436a-49b5-98ed-82fb760b3e15"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value>115215</con:value><con:style>QUERY</con:style><con:default>115215</con:default></con:parameter></con:parameters><con:method name="Method 1" id="f84b2312-e9c6-4aa5-842e-d16c64434dcb" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="d19f1f2d-0713-4588-8da3-f70a6b819f69" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{
+    "customerId": "44051448016",
+    "identificationType": "CED",
+    "identificationNumber": "0954943100",
+    "names": "EFREN PATRICIO GALARZA CHAVEZ",
+    "transactionTypeFlag": "PDA",
+    "lastName": "GALARZA",
+    "secondLastName": "CHAVEZ",
+    "birthday": "20020925",
+    "sex": "M",
+    "validateProject": false,
+    "gender": "",
+    "level": "1",
+    "segment": "3",
+    "cardType": "",
+    "address": [
+        {
+            "typeAddress": "3",
+            "province": "101001001",
+            "city": "101001001006",
+            "parish": "201709210390",
+            "street": "1",
+            "crossStreet": "1",
+            "houseNo": "1",
+            "urbanization1": "1"
+        },
+        {
+            "typeAddress": "3",
+            "province": "101001001",
+            "city": "101001001006",
+            "parish": "201709210390",
+            "street": "1",
+            "crossStreet": "1",
+            "houseNo": "1",
+            "urbanization1": "1"
+        }
+    ],
+    "contact": [
+        {
+            "contactType": "Telephone",
+            "value": "997188088"
+        },
+        {
+            "contactType": "Email",
+            "value": "efren.galarza@gizlocorp.com"
+        },
+        {
+            "contactType": "WorkPhone",
+            "value": "997188088"
+        },
+        {
+            "contactType": "MobilePhone",
+            "value": "0997188086"
+        }
+    ],
+    "accountId": "0018337744",
+    "billCycle": "3",
+    "warrantyFlag": "0",
+    "operatorCheck": "0",
+    "bankCode": "",
+    "paymentMethodType": "CFA",
+    "bankAccountNumber": "",
+    "cardNumber": "",
+    "CVVNumber": "",
+    "bankAccountExpiryTime": "",
+    "subscriptionNumber": "2",
+    "serviceNumber": [
+        {
+            "offering": [
+                {
+                    "offeringId": "150440",
+                    "offeringName": "MI Claro 100 Megas FMC GPON B1",
+                    "offeringCode": "150440",
+                    "offeringCategory": "OFERTA PRIMARIA",
+                    "isPrimary": "Y",
+                    "price": "26.92",
+                    "priceAfterTax": "30.15",
+                    "priceBeforeTax": "26.92"
+                }
+            ]
+        },
+        {
+            "offering": [
+                {
+                    "offeringId": "150456",
+                    "offeringName": "Hogar Sin Limites FMC GPON B2",
+                    "offeringCode": "150456",
+                    "offeringCategory": "OFERTA PRIMARIA",
+                    "isPrimary": "Y",
+                    "price": "8.08",
+                    "priceAfterTax": "9.06",
+                    "priceBeforeTax": "8.08"
+                }
+            ]
+        },
+        {
+            "offering": [
+                {
+                    "offeringId": "150428",
+                    "offeringName": "2 Play Mi Claro 100 Megas y Hogar Sin Limites GPON NP2",
+                    "offeringCode": "150428",
+                    "offeringCategory": null,
+                    "isPrimary": "Y",
+                    "price": "0",
+                    "priceAfterTax": "0",
+                    "priceBeforeTax": "0"
+                }
+            ]
+        }
+    ],
+    "totalAmount": "35.00",
+    "userName": "AACOSTAN",
+    "isFmc": "Y",
+    "isChangeFmc": "N"
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="queryCoverage" path="/PT_pdaOne/pda/v1/queryCoverage" id="1710d817-659f-494a-a41d-52ba9e8e9376"><con:settings/><con:parameters><con:parameter><con:name>standarAddressId</con:name><con:value>0018335943</con:value><con:style>QUERY</con:style><con:default>0018335943</con:default></con:parameter></con:parameters><con:method name="Method 1" id="126d4cf0-5353-4729-92c4-1e9b46128d41" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:quer="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/queryCoverage">quer:Response</con:element></con:representation><con:request name="Request 1" id="b12379be-1908-42e5-ab53-9e9a75f25e0c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/queryCoverage</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="standarAddressId" value="0019690824" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:request></con:method></con:resource><con:resource name="login" path="/PT_pdaOne/pda/v1/login" id="8d2ef956-18af-4282-8fba-6da1eceeaa2e"><con:settings/><con:parameters/><con:method name="Method 1" id="e1ea9586-cc60-4db4-a05b-0b3e9ad2f723" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:log="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/login">log:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="68f138fb-bca7-4a64-bb3a-902204e63e51" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{
+    "username": "YOUR_USERNAME",
+    "password": "YOUR_PASSWORD"
+}</con:request><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/login</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="validateAddShoppingCar" path="/PT_pdaOne/pda/v1/validateAddShoppingCar" id="206e11c6-871c-4534-bb7c-602afb61666a"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value>104387</con:value><con:style>QUERY</con:style><con:default>104387</con:default></con:parameter></con:parameters><con:method name="Method 1" id="01df6d5b-5adf-4d75-9289-b10afd9be4d2" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="e57ef270-71e6-4171-92c2-600def855e02" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request>{
+    "changeFmcOffer": "true",
+    "IPTVInfo": {
+        "emailAccount": "efrenpgc2602@gmail.com"
+    },
+    "accountInfo": {
+        "DDBAType": "",
+        "accountId": "60034691503",
+        "accountType": "Postpaid",
+        "paymentMode": "03"
+    },
+    "customerInfo": {
+        "createTime": "",
+        "custCertificationType": "PAS",
+        "custEmail": "PRUEBAS_PYP@HUAWEI.COM",
+        "custId": "44051413125",
+        "custLevel": "",
+        "custSegment": "",
+        "customerIdentification": "SR319003",
+        "customerName": "PRUEBAS"
+    },
+    "orderInfo": {
+        "creationTime": "",
+        "executionTime": "",
+        "operatorId": "",
+        "orderId": "",
+        "orderStatus": ""
+    },
+    "subscriptionInfo": [
+        {
+            "ICCID": "",
+            "IMEI": "",
+            "addingFlag": "N",
+            "msisdn": "1000144935",
+            "offerType": "Internet",
+            "offeringCategory": "OFERTA PRIMARIA",
+            "priceAfterTax": "31.36",
+            "priceBeforeTax": "28.00",
+            "primaryOfferId": "100057435",
+            "standartAddressId": "0018330853",
+            "status": "2",
+            "technologyType": "GPON",
+            "supplementaryOfferInfo": [
+                {
+                    "offerCategory": "Claro_Video",
+                    "offerId": "56202",
+                    "offerInstanceId": "",
+                    "priceAfterTax": "3.92",
+                    "priceBeforeTax": "3.5",
+                    "status": "2"
+                },
+                {
+                    "offerCategory": "DESCUENTO",
+                    "offerId": "56234",
+                    "offerInstanceId": "",
+                    "priceAfterTax": "0",
+                    "priceBeforeTax": "0",
+                    "status": "2"
+                },
+                {
+                    "offerCategory": "INSTALACION",
+                    "offerId": "56201",
+                    "offerInstanceId": "",
+                    "priceAfterTax": "90.0032",
+                    "priceBeforeTax": "80.36",
+                    "status": "2"
+                },
+                {
+                    "offerCategory": "OTRO",
+                    "offerId": "74326",
+                    "offerInstanceId": "",
+                    "priceAfterTax": "0.00",
+                    "priceBeforeTax": "0",
+                    "status": "2"
+                },
+                {
+                    "offerCategory": "DESCUENTO",
+                    "offerId": "53372",
+                    "offerInstanceId": "",
+                    "priceAfterTax": "0.00",
+                    "priceBeforeTax": "0.00",
+                    "status": "2"
+                },
+                {
+                    "offerCategory": "INSTALACION",
+                    "offerId": "74244",
+                    "offerInstanceId": "",
+                    "priceAfterTax": "90.00",
+                    "priceBeforeTax": "69.88",
+                    "status": "2"
+                }
+            ]
+        },
+        {
+            "ICCID": "",
+            "IMEI": "",
+            "addingFlag": "N",
+            "msisdn": "1000144937",
+            "offerType": "IPTV",
+            "offeringCategory": "OFERTA PRIMARIA",
+            "priceAfterTax": "25.76",
+            "priceBeforeTax": "20.00",
+            "primaryOfferId": "150317",
+            "standartAddressId": "0018330853",
+            "status": "2",
+            "technologyType": "GPON",
+            "supplementaryOfferInfo": []
+        },
+        {
+            "ICCID": null,
+            "IMEI": null,
+            "addingFlag": "N",
+            "msisdn": null,
+            "offerType": "Internet",
+            "offeringCategory": "OFERTA PRIMARIA",
+            "priceAfterTax": "24.64",
+            "priceBeforeTax": "22.00",
+            "primaryOfferId": "100075180",
+            "standartAddressId": "0018330853",
+            "status": "Initial",
+            "technologyType": "GPON",
+            "supplementaryOfferInfo": []
+        },
+        {
+            "ICCID": null,
+            "IMEI": null,
+            "addingFlag": "N",
+            "msisdn": null,
+            "offerType": "IPTV",
+            "offeringCategory": "OFERTA PRIMARIA",
+            "priceAfterTax": "9.02",
+            "priceBeforeTax": "7.00",
+            "primaryOfferId": "100075225",
+            "standartAddressId": "0018330853",
+            "status": "Initial",
+            "technologyType": "GPON",
+            "supplementaryOfferInfo": []
+        }
+    ]
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="YOUR_PROJECT_ID" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:request></con:method></con:resource><con:resource name="capacity" path="/PT_pdaOne/pda/v1/capacity/all" id="21554a60-5f47-45fc-8ac9-e31eeade5cb2"><con:settings/><con:parameters><con:parameter><con:name>activityType</con:name><con:value>INST</con:value><con:style>QUERY</con:style><con:default>INST</con:default></con:parameter><con:parameter><con:name>tecnology</con:name><con:value>GPON</con:value><con:style>QUERY</con:style><con:default>GPON</con:default></con:parameter><con:parameter><con:name>determineCategory</con:name><con:value>true</con:value><con:style>QUERY</con:style><con:default>true</con:default></con:parameter><con:parameter><con:name>estimateTravelTime</con:name><con:value>true</con:value><con:style>QUERY</con:style><con:default>true</con:default></con:parameter><con:parameter><con:name>locationCode</con:name><con:value>0019731112</con:value><con:style>QUERY</con:style><con:default>0019731112</con:default></con:parameter><con:parameter><con:name>dateFrom</con:name><con:value>2024-01-09</con:value><con:style>QUERY</con:style><con:default>2024-01-09</con:default></con:parameter><con:parameter><con:name>dateUntil</con:name><con:value>2024-01-14</con:value><con:style>QUERY</con:style><con:default>2024-01-14</con:default></con:parameter><con:parameter><con:name>originChannel</con:name><con:value>PDA</con:value><con:style>QUERY</con:style><con:default>PDA</con:default></con:parameter><con:parameter><con:name>bucketType</con:name><con:value/><con:style>QUERY</con:style><con:default/></con:parameter></con:parameters><con:method name="all" id="aa6d99e3-f8ef-446b-b079-faf4136249d9" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:all="https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/capacity/all">all:Response</con:element></con:representation><con:request name="Request 1" id="a6e8e2ff-d665-4810-a71f-b031c233d8b6" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:originalUri>https://sellingpoint.claro.com.ec/PT_pdaOne/pda/v1/capacity/all</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="getSignatureStatusByProject" path="/PT_pdaOne/pda/v1/getSignatureStatusByProject/{idProject}" id="7721b586-6bd8-4d87-95db-27680ac69b52"><con:settings/><con:parameters><con:parameter><con:name>idProject</con:name><con:value>idProject</con:value><con:style>TEMPLATE</con:style><con:default>idProject</con:default></con:parameter></con:parameters><con:method name="Method 1" id="4f4abcc3-20e1-45f6-b419-3ca09f84cbd2" method="GET"><con:settings/><con:parameters/><con:request name="Request 1" id="589f0500-1ecf-497e-9392-af9039d5b3dd" mediaType="application/json"><con:settings/><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="reprocessSignatureInformation" path="/PT_pdaOne/pda/v1/reprocessSignatureInformation/{username}" id="ce231dd2-c08e-4252-919a-7fd661ad837c"><con:settings/><con:parameters><con:parameter><con:name>username</con:name><con:value>username</con:value><con:style>TEMPLATE</con:style><con:default>username</con:default></con:parameter><con:parameter><con:name>id</con:name><con:value>115221</con:value><con:style>QUERY</con:style><con:default>115221</con:default></con:parameter></con:parameters><con:method name="Method 1" id="04eb475f-7d62-48fe-876a-546548e4f261" method="GET"><con:settings/><con:parameters/><con:request name="Request 1" id="81a63dfa-bad2-48ba-bd52-b6a3a11a0be3" mediaType="application/json"><con:settings/><con:endpoint>https://sellingpoint.claro.com.ec</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="id" value="YOUR_ID_PROJECT"/>
+  <con:entry key="username" value="YOUR_USER_NAME"/>
+</con:parameters></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
