@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T00:43:09.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Zpdg5LSjSI2DQkCm2V-0" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-14T00:45:56.110Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="q_8IYkODX96CTFP-RrjP" version="22.1.18" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2267" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2717" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,12 +206,6 @@
         </mxCell>
         <mxCell id="KG6bJWBW2agzrLAd_l-o-49" value="1.1.- MGT_validate_isBrownfield" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="351" y="1008" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KG6bJWBW2agzrLAd_l-o-50" value="penaltyService-successfulResponseForPerminValidation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="285" y="1530" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KG6bJWBW2agzrLAd_l-o-52" value="MGT_validateConvPD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="285" y="1572" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KG6bJWBW2agzrLAd_l-o-66" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1157" y="742" width="363" height="79.5" as="geometry" />
