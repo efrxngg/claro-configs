@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T00:17:21.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="-9jg-ZA2-fbd20or1x3e" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-14T00:23:26.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Jf0CgWUcvhwwFNqbADl4" version="22.1.18" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1600" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,11 +61,6 @@
               <mxPoint x="305" y="520" />
               <mxPoint x="1161" y="520" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KG6bJWBW2agzrLAd_l-o-65" value="MGT_ValidateQuerySuscriber" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KG6bJWBW2agzrLAd_l-o-64">
-          <mxGeometry x="0.0354" relative="1" as="geometry">
-            <mxPoint x="157" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VI5VEpIVLjL-skiSAM5E-69" value="" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
@@ -196,6 +191,11 @@
         <mxCell id="KG6bJWBW2agzrLAd_l-o-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VI5VEpIVLjL-skiSAM5E-121" target="KG6bJWBW2agzrLAd_l-o-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="KG6bJWBW2agzrLAd_l-o-87" value="QueryOfferBR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KG6bJWBW2agzrLAd_l-o-43">
+          <mxGeometry x="0.2229" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KG6bJWBW2agzrLAd_l-o-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="822.5" as="sourcePoint" />
@@ -208,12 +208,6 @@
             <mxPoint x="450" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KG6bJWBW2agzrLAd_l-o-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="1000" as="sourcePoint" />
-            <mxPoint x="1040" y="921" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="KG6bJWBW2agzrLAd_l-o-48" value="penaltyService-validatePermin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="350" y="640" width="190" height="30" as="geometry" />
         </mxCell>
@@ -221,10 +215,10 @@
           <mxGeometry x="360" y="1008" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KG6bJWBW2agzrLAd_l-o-50" value="penaltyService-successfulResponseForPerminValidation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1048" width="320" height="30" as="geometry" />
+          <mxGeometry x="350" y="1130" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KG6bJWBW2agzrLAd_l-o-52" value="MGT_validateConvPD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1090" width="140" height="30" as="geometry" />
+          <mxGeometry x="350" y="1172" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KG6bJWBW2agzrLAd_l-o-66" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1157" y="742" width="363" height="79.5" as="geometry" />
@@ -267,9 +261,6 @@
             <mxPoint x="-1" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KG6bJWBW2agzrLAd_l-o-76" value="QueryOfferBR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="990" y="1008" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="KG6bJWBW2agzrLAd_l-o-79" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="1130" y="638" as="sourcePoint" />
@@ -286,6 +277,9 @@
         </mxCell>
         <mxCell id="KG6bJWBW2agzrLAd_l-o-85" value="validate-process-delegation-brownfield" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="689.5" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KG6bJWBW2agzrLAd_l-o-88" value="MGT_ValidateQuerySuscriber" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1050" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
