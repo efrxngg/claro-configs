@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T05:46:01.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="395nusQP_ky7uwKlTqVN" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-15T05:54:10.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Nu9EW5qogAaKeobI3-W3" version="22.1.18" type="github" pages="6">
   <diagram name="Diagrama de Arquitectura" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2000" dy="246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -289,7 +289,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8_cpI_sFTmextDY6M4GU" name="DS1 - penaltyService-validatePermin - addShoppingCart - Borrador">
-    <mxGraphModel dx="2667" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1895" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -462,7 +462,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="DS2 - penaltyService-validatePermin - addShoppingCart" id="wuCOTEsq97k_htn0a9jB">
-    <mxGraphModel dx="455" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="695" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wOgjjanyxpFS2HLkBtR_-0" />
         <mxCell id="wOgjjanyxpFS2HLkBtR_-1" parent="wOgjjanyxpFS2HLkBtR_-0" />
@@ -680,7 +680,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NREk_ciIqxYLwTMEbTMS" name="Diagrama de Secuencia - penaltyServiceValidatePermin - addShpoppingCart">
-    <mxGraphModel dx="2755" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3191" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1027,7 +1027,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="DS1 - penaltyService-validatePermin - getCustomerPromotions" id="nYYwQHUYrlBXBRhNampu">
-    <mxGraphModel dx="455" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="695" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-0" />
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-1" parent="LxYCZTPI-pYFfWp_kgK1-0" />
@@ -1275,10 +1275,19 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Diagrama de Secuencia - penaltyServiceValidatePermin - getCustomerPromotions" id="jYO0Kw4R-K3fdLhnANp7">
-    <mxGraphModel dx="2115" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1953" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-0" />
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-1" parent="4KREMEvy2Q5WYrR5BfAZ-0" />
+        <mxCell id="W_a_HKPVbaF39ILY5814-0" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;penaltyService-validatePermin getCustomerPromotions&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="4KREMEvy2Q5WYrR5BfAZ-1">
+          <mxGeometry x="-469" y="370" width="869" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="7tDqbeqIhCLkAlH74L7h-0" value="MGT_validate_isBrownfield" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="W_a_HKPVbaF39ILY5814-0">
+          <mxGeometry y="178" width="850" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="7tDqbeqIhCLkAlH74L7h-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;penaltyService-successfulResponseForPerminValidation&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="W_a_HKPVbaF39ILY5814-0">
+          <mxGeometry y="691" width="450" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-4" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="-200" y="685" as="sourcePoint" />
