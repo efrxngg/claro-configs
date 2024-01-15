@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T05:17:30.417Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="NhBFyEMKKLA0MffVoYzh" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-15T05:21:36.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="np0xdwJIDU8F00wUqj7h" version="22.1.18" type="github" pages="6">
   <diagram name="Diagrama de Arquitectura" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2000" dy="246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1490,6 +1490,11 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hSvjE0pb4TQv5nBIstzp-14" value="Servicios HFC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4KREMEvy2Q5WYrR5BfAZ-42">
+          <mxGeometry x="0.0074" relative="1" as="geometry">
+            <mxPoint x="136" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-43" value="retorna request para el evento 12" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="4KREMEvy2Q5WYrR5BfAZ-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-191" y="1260" as="sourcePoint" />
@@ -1568,7 +1573,7 @@
             <mxPoint x="-465.00000000000045" y="1655" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4KREMEvy2Q5WYrR5BfAZ-57" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 10px;&quot;&gt;{&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-family: oKM8fNv8dKfM4HdNHwO4; background-color: initial;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;font face=&quot;oKM8fNv8dKfM4HdNHwO4&quot;&gt;operation = &#39;validateBrownfieldPromotion&#39;, tecnologyType = &#39;true&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;font face=&quot;oKM8fNv8dKfM4HdNHwO4&quot; style=&quot;font-size: 10px;&quot;&gt;}&lt;/font&gt;" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;dashPattern=10 10;rounded=0;align=left;" edge="1" parent="4KREMEvy2Q5WYrR5BfAZ-1">
+        <mxCell id="4KREMEvy2Q5WYrR5BfAZ-57" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 10px;&quot;&gt;{&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;font face=&quot;oKM8fNv8dKfM4HdNHwO4&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;operation = &#39;validateBrownfieldPromotion&#39;, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;tecnologyType = &#39;true&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;font face=&quot;oKM8fNv8dKfM4HdNHwO4&quot; style=&quot;font-size: 10px;&quot;&gt;}&lt;/font&gt;" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;dashPattern=10 10;rounded=0;align=left;" edge="1" parent="4KREMEvy2Q5WYrR5BfAZ-1">
           <mxGeometry x="-0.9187" width="160" relative="1" as="geometry">
             <mxPoint x="-191" y="624" as="sourcePoint" />
             <mxPoint x="79.5" y="624" as="targetPoint" />
