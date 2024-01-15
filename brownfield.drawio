@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T14:16:41.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="hKc1c8KnNlRLRR9goGeP" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-15T14:18:48.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Ioul45aGDAmKNTuQquod" version="22.1.18" type="github" pages="6">
   <diagram name="Diagrama de Arquitectura" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1520" dy="52" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1211,7 +1211,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Diagrama de Secuencia - penaltyServiceValidatePermin - getCustomerPromotions" id="jYO0Kw4R-K3fdLhnANp7">
-    <mxGraphModel dx="3691" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2601" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-0" />
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-1" parent="4KREMEvy2Q5WYrR5BfAZ-0" />
@@ -1231,7 +1231,7 @@
           <mxGeometry y="178" width="850" height="510" as="geometry" />
         </mxCell>
         <mxCell id="7tDqbeqIhCLkAlH74L7h-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;penaltyService-successfulResponseForPerminValidation&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="W_a_HKPVbaF39ILY5814-0" vertex="1">
-          <mxGeometry y="762" width="450" height="120" as="geometry" />
+          <mxGeometry y="688" width="550" height="192" as="geometry" />
         </mxCell>
         <mxCell id="l4FcGMxGX9Wum5KwXo-B-0" value="{&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;operation = &#39;successResponse&#39; || &lt;br&gt;&amp;nbsp; &amp;nbsp;(operation = &#39;validateBrownfieldPromotion&#39; &amp;amp;&amp;amp; &lt;br&gt;&amp;nbsp; &amp;nbsp; tecnologyType = &#39;false&#39;)&lt;br&gt;}" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;dashPattern=10 10;rounded=0;align=left;" edge="1" parent="W_a_HKPVbaF39ILY5814-0">
           <mxGeometry x="-0.9258" width="160" relative="1" as="geometry">
