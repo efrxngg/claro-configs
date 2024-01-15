@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T15:20:43.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="39bQQmMCsUjahKj3H8ET" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-15T15:24:17.214Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Pq23lcC9AVVhoyflgd7k" version="22.1.18" type="github" pages="7">
   <diagram name="Diagrama de Arquitectura" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1521" dy="52" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1582,9 +1582,10 @@
         <mxCell id="R8DU7hwSB8selUdcH_2Q-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="w59PemspD6qJ0YnSnOxR-13">
           <mxGeometry x="324" y="246" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R8DU7hwSB8selUdcH_2Q-8" value="Valida correo de los servicios del cliente" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=10;" edge="1" parent="w59PemspD6qJ0YnSnOxR-13" target="R8DU7hwSB8selUdcH_2Q-7">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="R8DU7hwSB8selUdcH_2Q-8" value="Valida correo para ventas normales/brownfield" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=10;" edge="1" parent="w59PemspD6qJ0YnSnOxR-13" target="R8DU7hwSB8selUdcH_2Q-7">
+          <mxGeometry x="0.0015" relative="1" as="geometry">
             <mxPoint x="-365" y="251" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R8DU7hwSB8selUdcH_2Q-9" value="Respuesta del servicio de IPTV" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontSize=10;" edge="1" parent="w59PemspD6qJ0YnSnOxR-13" source="R8DU7hwSB8selUdcH_2Q-7">
