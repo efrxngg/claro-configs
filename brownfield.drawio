@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T13:59:50.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="OB61EDFgkdzjGS6eFJLh" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-15T14:16:41.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="hKc1c8KnNlRLRR9goGeP" version="22.1.18" type="github" pages="6">
   <diagram name="Diagrama de Arquitectura" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1520" dy="52" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -462,7 +462,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="DS2 - PSVP - addShoppingCart" id="wuCOTEsq97k_htn0a9jB">
-    <mxGraphModel dx="5200" dy="2660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5205" dy="2660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wOgjjanyxpFS2HLkBtR_-0" />
         <mxCell id="wOgjjanyxpFS2HLkBtR_-1" parent="wOgjjanyxpFS2HLkBtR_-0" />
@@ -680,7 +680,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NREk_ciIqxYLwTMEbTMS" name="Diagrama de Secuencia - penaltyServiceValidatePermin - addShpoppingCart">
-    <mxGraphModel dx="2320" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2321" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1027,7 +1027,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="DS1 - PSVP - getCustomerPromotions" id="nYYwQHUYrlBXBRhNampu">
-    <mxGraphModel dx="2000" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="801" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-0" />
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-1" parent="LxYCZTPI-pYFfWp_kgK1-0" />
@@ -1067,8 +1067,8 @@
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-12" value="El request satisface los siguientes criterios:" style="rhombus;align=center;labelBackgroundColor=default;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
           <mxGeometry x="1518.5" y="261.5" width="105" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="LxYCZTPI-pYFfWp_kgK1-13" value="- El businessProcessId debe ser addShoppingCart.&#xa;- El consumerId debe coincidir con Huawei-COM.&#xa;- El externalProcessId debe ser igual a com-001-028.&#xa;- El offeringSubCategory debe ser una de las siguientes opciones:&#xa;    DISCAPACIDAD&#xa;    ADULTO&#xa;    TODOCLARO&#xa;    CAMBIATE&#xa;    REGULAR" style="text;whiteSpace=wrap;strokeColor=default;fillColor=default;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
-          <mxGeometry x="1771" y="247.5" width="450" height="140" as="geometry" />
+        <mxCell id="LxYCZTPI-pYFfWp_kgK1-13" value="- El businessProcessId debe ser getCustomerPromotions.&#xa;- El consumerId debe coincidir con Huawei-COM.&#xa;- El externalProcessId debe ser igual a com-001-028." style="text;whiteSpace=wrap;strokeColor=default;fillColor=default;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
+          <mxGeometry x="1762" y="285.25" width="450" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="LxYCZTPI-pYFfWp_kgK1-1" target="LxYCZTPI-pYFfWp_kgK1-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1105,8 +1105,8 @@
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-26" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=node" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
           <mxGeometry x="1366" y="662" width="50" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="LxYCZTPI-pYFfWp_kgK1-27" value="http://10.31.32.13:8282/servlet/microGateway/invoke&lt;br&gt;Event 10: MGT_validate_isBrownfield&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Condición: Si operación igual a&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;validateMobileLine y&amp;nbsp; &lt;br&gt;si la primera&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;tecnología del empaquetado es GPON&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
-          <mxGeometry x="1241" y="720" width="300" height="70" as="geometry" />
+        <mxCell id="LxYCZTPI-pYFfWp_kgK1-27" value="http://10.31.32.13:8282/servlet/microGateway/invoke&lt;br&gt;Evento 3: MGT_validate_isBrownfield&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Condición: Si operación igual a&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;validateBrownfieldPromotion&amp;nbsp;y&amp;nbsp;si la primera&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;tecnología del empaquetado es GPON&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
+          <mxGeometry x="1241" y="710" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-28" value="http://10.31.32.13:8285/composer/v1.0/composition&lt;br&gt;Id Evento:&amp;nbsp;validate-process-delegation-brownfield" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
           <mxGeometry x="1235" y="921" width="300" height="40" as="geometry" />
@@ -1117,8 +1117,8 @@
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-30" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=node" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
           <mxGeometry x="1743.5" y="662" width="50" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="LxYCZTPI-pYFfWp_kgK1-31" value="http://10.31.32.13:8282/servlet/microGateway/invoke&lt;br&gt;Evento 11: MGT_validateConvPD&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Condicion: Si la operacion es igual&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;a&amp;nbsp;validateMobileLine" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
-          <mxGeometry x="1618.5" y="720" width="300" height="70" as="geometry" />
+        <mxCell id="LxYCZTPI-pYFfWp_kgK1-31" value="http://10.31.32.13:8282/servlet/microGateway/invoke&lt;br&gt;Evento 4:&amp;nbsp;penaltyService-successfulResponse&lt;br&gt;ForPerminValidation&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Condicion: Si la operacion es igual&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;a&amp;nbsp;validateBrownfieldPromotion y" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
+          <mxGeometry x="1618.5" y="710" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-32" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=node" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
           <mxGeometry x="1191" y="1048.5" width="50" height="48" as="geometry" />
@@ -1180,7 +1180,7 @@
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-55" value="" style="whiteSpace=wrap;html=1;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
           <mxGeometry x="1426" y="451.5" width="295" height="128.5" as="geometry" />
         </mxCell>
-        <mxCell id="LxYCZTPI-pYFfWp_kgK1-56" value="http://10.31.32.13:8285/composer/v1.0/composition&lt;br&gt;Id Evento: penaltyService-validatePermin&lt;br&gt;Operacion:&amp;nbsp;validateMobileLine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
+        <mxCell id="LxYCZTPI-pYFfWp_kgK1-56" value="http://10.31.32.13:8285/composer/v1.0/composition&lt;br&gt;Id Evento: penaltyService-validatePermin&lt;br&gt;Operación:&amp;nbsp;validateBrownfieldPromotion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
           <mxGeometry x="1425" y="512.5" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-57" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=node" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
@@ -1211,24 +1211,34 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Diagrama de Secuencia - penaltyServiceValidatePermin - getCustomerPromotions" id="jYO0Kw4R-K3fdLhnANp7">
-    <mxGraphModel dx="3236" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3691" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-0" />
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-1" parent="4KREMEvy2Q5WYrR5BfAZ-0" />
         <mxCell id="HC62QblMfLaE_omH7Yy--0" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 7px; background-color: initial;&quot;&gt;Diagrama de flujo: penaltyService-validatePermin getCustomerPromotions&lt;/b&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;fillColor=default;fontColor=#333333;strokeColor=#666666;align=left;swimlaneFillColor=default;" parent="4KREMEvy2Q5WYrR5BfAZ-1" vertex="1">
-          <mxGeometry x="-900" y="110" width="1570" height="1270" as="geometry" />
+          <mxGeometry x="-900" y="110" width="1560" height="1330" as="geometry" />
         </mxCell>
         <mxCell id="HC62QblMfLaE_omH7Yy--1" value="&lt;u&gt;&lt;b&gt;NOTA&lt;/b&gt;&lt;/u&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;return 1: 0, Success, True, processData con las tecnologias que aplican brownfield(Respuesta exitosa cuando aplica bf).&lt;br&gt;return 2: 0, Success, True (Respuesta exitosa cuando no aplica bf).&lt;br&gt;return 3: code(respuesta bf),&amp;nbsp; message(respuesta bf), (Respuesta por defecto en caso de que no haga match con los escenarios planteados).&lt;br&gt;&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;" parent="HC62QblMfLaE_omH7Yy--0" vertex="1">
-          <mxGeometry x="20" y="1008" width="163" height="242" as="geometry" />
+          <mxGeometry x="20" y="1069" width="163" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="4KREMEvy2Q5WYrR5BfAZ-30" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Redirecciona y envía la petición:&lt;/span&gt;&lt;/div&gt;URL 1:&amp;nbsp;http://10.31.32.13:8282&lt;br&gt;/servlet/microGateway/invoke&lt;br&gt;URL 2:&amp;nbsp;http://10.31.32.13:8180&lt;br&gt;/EAIServices/EIS/request" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HC62QblMfLaE_omH7Yy--0" vertex="1">
+          <mxGeometry x="730" y="110" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="W_a_HKPVbaF39ILY5814-0" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;penaltyService-validatePermin&amp;nbsp;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="4KREMEvy2Q5WYrR5BfAZ-1" vertex="1">
-          <mxGeometry x="-469" y="370" width="869" height="990" as="geometry" />
+          <mxGeometry x="-469" y="370" width="869" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="7tDqbeqIhCLkAlH74L7h-0" value="MGT_validate_isBrownfield" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="W_a_HKPVbaF39ILY5814-0" vertex="1">
           <mxGeometry y="178" width="850" height="510" as="geometry" />
         </mxCell>
         <mxCell id="7tDqbeqIhCLkAlH74L7h-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;penaltyService-successfulResponseForPerminValidation&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="W_a_HKPVbaF39ILY5814-0" vertex="1">
-          <mxGeometry y="691" width="450" height="120" as="geometry" />
+          <mxGeometry y="762" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l4FcGMxGX9Wum5KwXo-B-0" value="{&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;operation = &#39;successResponse&#39; || &lt;br&gt;&amp;nbsp; &amp;nbsp;(operation = &#39;validateBrownfieldPromotion&#39; &amp;amp;&amp;amp; &lt;br&gt;&amp;nbsp; &amp;nbsp; tecnologyType = &#39;false&#39;)&lt;br&gt;}" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;dashPattern=10 10;rounded=0;align=left;" edge="1" parent="W_a_HKPVbaF39ILY5814-0">
+          <mxGeometry x="-0.9258" width="160" relative="1" as="geometry">
+            <mxPoint x="279" y="757" as="sourcePoint" />
+            <mxPoint x="548.5000000000005" y="756.9999999999998" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-4" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -1251,8 +1261,8 @@
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-7" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.3;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="-201" y="1102.92" as="sourcePoint" />
-            <mxPoint x="-466" y="1103" as="targetPoint" />
+            <mxPoint x="-201" y="1173.92" as="sourcePoint" />
+            <mxPoint x="-466" y="1174" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -1263,8 +1273,8 @@
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-9" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.3;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;strokeColor=#d79b00;strokeWidth=1;dashPattern=12 12;fillColor=#ffe6cc;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="-468" y="1166.08" as="sourcePoint" />
-            <mxPoint x="-203" y="1166" as="targetPoint" />
+            <mxPoint x="-468" y="1237.08" as="sourcePoint" />
+            <mxPoint x="-203" y="1237" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -1288,25 +1298,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-13" value="CRM ONE" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="4KREMEvy2Q5WYrR5BfAZ-1" vertex="1">
-          <mxGeometry x="-740" y="160" width="100" height="1200" as="geometry" />
+          <mxGeometry x="-740" y="160" width="100" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#73ae42;strokeColor=#82b366;" parent="4KREMEvy2Q5WYrR5BfAZ-13" vertex="1">
-          <mxGeometry x="45" y="180" width="10" height="1010" as="geometry" />
+          <mxGeometry x="45" y="180" width="10" height="1070" as="geometry" />
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-15" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;MICROGATEWAY&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="4KREMEvy2Q5WYrR5BfAZ-1" vertex="1">
-          <mxGeometry x="-520" y="160" width="100" height="1200" as="geometry" />
+          <mxGeometry x="-520" y="160" width="100" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#73ae42;strokeColor=#82b366;" parent="4KREMEvy2Q5WYrR5BfAZ-15" vertex="1">
-          <mxGeometry x="45" y="180" width="10" height="1010" as="geometry" />
+          <mxGeometry x="45" y="180" width="10" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="4KREMEvy2Q5WYrR5BfAZ-15" vertex="1">
-          <mxGeometry x="45" y="933" width="10" height="77" as="geometry" />
+          <mxGeometry x="45" y="1004" width="10" height="77" as="geometry" />
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-19" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;COMPOSER&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="4KREMEvy2Q5WYrR5BfAZ-1" vertex="1">
-          <mxGeometry x="-248" y="160" width="100" height="1200" as="geometry" />
+          <mxGeometry x="-248" y="160" width="100" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#73ae42;strokeColor=#82b366;" parent="4KREMEvy2Q5WYrR5BfAZ-19" vertex="1">
-          <mxGeometry x="45" y="410" width="10" height="650" as="geometry" />
+          <mxGeometry x="45" y="410" width="10" height="720" as="geometry" />
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" parent="4KREMEvy2Q5WYrR5BfAZ-19" vertex="1">
           <mxGeometry x="45" y="599" width="10" height="301" as="geometry" />
@@ -1369,9 +1379,6 @@
             <mxPoint x="-191" y="805" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4KREMEvy2Q5WYrR5BfAZ-30" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Redirecciona y envía la petición:&lt;/span&gt;&lt;/div&gt;URL 1:&amp;nbsp;http://10.31.32.13:8282&lt;br&gt;/servlet/microGateway/invoke&lt;br&gt;URL 3:&amp;nbsp;http://10.31.32.13:8180&lt;br&gt;/EAIServices/EIS/request&lt;br&gt;URL 4:&amp;nbsp;http://enterprise-claro-nuevatv-iptvservices&lt;br&gt;.openshift-apps.conecel.com&lt;br&gt;/tmf-api/iptvServices/v1.0/validateEmail&lt;br&gt;URL 5:&amp;nbsp;http://enterprise-claro-nuevatv-iptvservices&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;.openshift-apps.conecel.com&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;/tmf-api/iptvServices/v1.0/validateEmailBF" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="4KREMEvy2Q5WYrR5BfAZ-1" vertex="1">
-          <mxGeometry x="-191" y="236" width="290" height="170" as="geometry" />
-        </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-31" value="" style="endArrow=none;html=1;rounded=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-194" y="220" as="sourcePoint" />
@@ -1413,7 +1420,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-37" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;SUBSCRIBER&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="4KREMEvy2Q5WYrR5BfAZ-1" vertex="1">
-          <mxGeometry x="30" y="160" width="100" height="1200" as="geometry" />
+          <mxGeometry x="30" y="160" width="100" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" parent="4KREMEvy2Q5WYrR5BfAZ-37" vertex="1">
           <mxGeometry x="45" y="712" width="10" height="46" as="geometry" />
@@ -1454,8 +1461,8 @@
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;dashPattern=12 12;strokeColor=#73ae42;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-203" y="1210" as="sourcePoint" />
-            <mxPoint x="-465.00000000000045" y="1210" as="targetPoint" />
+            <mxPoint x="-203" y="1281" as="sourcePoint" />
+            <mxPoint x="-465.00000000000045" y="1281" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-57" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 10px;&quot;&gt;{&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;font face=&quot;oKM8fNv8dKfM4HdNHwO4&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;operation = &#39;validateBrownfieldPromotion&#39;, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;tecnologyType = &#39;true&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;font face=&quot;oKM8fNv8dKfM4HdNHwO4&quot; style=&quot;font-size: 10px;&quot;&gt;}&lt;/font&gt;" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;dashPattern=10 10;rounded=0;align=left;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
@@ -1467,29 +1474,32 @@
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-58" value="&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Helvetica&quot;&gt;aplica plantilla de salida a la respuesta de&amp;nbsp;&lt;br&gt;Composer&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-465" y="1282" as="sourcePoint" />
+            <mxPoint x="-465" y="1353" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-440" y="1282" />
-              <mxPoint x="-440" y="1322" />
+              <mxPoint x="-440" y="1353" />
+              <mxPoint x="-440" y="1393" />
             </Array>
-            <mxPoint x="-465" y="1322" as="targetPoint" />
+            <mxPoint x="-465" y="1393" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4KREMEvy2Q5WYrR5BfAZ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;dashPattern=12 12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="4KREMEvy2Q5WYrR5BfAZ-1" source="4KREMEvy2Q5WYrR5BfAZ-16" target="4KREMEvy2Q5WYrR5BfAZ-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4KREMEvy2Q5WYrR5BfAZ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;dashPattern=12 12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-476" y="1396" as="sourcePoint" />
+            <mxPoint x="-686" y="1396" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4KREMEvy2Q5WYrR5BfAZ-64" value="retorna request para el evento 4&lt;br style=&quot;font-size: 10px;&quot;&gt;Request Microgateway" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=10;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-192" y="1063" as="sourcePoint" />
+            <mxPoint x="-192" y="1134" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-167" y="1063" />
-              <mxPoint x="-167" y="1103" />
+              <mxPoint x="-167" y="1134" />
+              <mxPoint x="-167" y="1174" />
             </Array>
-            <mxPoint x="-192" y="1103" as="targetPoint" />
+            <mxPoint x="-192" y="1174" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_Xd1fdClEyUQthR-Wmmt-0" value="&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;EMPEVE/&lt;br&gt;&lt;/span&gt;cl_promociones_brownfield" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="4KREMEvy2Q5WYrR5BfAZ-1" vertex="1">
-          <mxGeometry x="280" y="160" width="150" height="1200" as="geometry" />
+          <mxGeometry x="280" y="160" width="150" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="_Xd1fdClEyUQthR-Wmmt-3" value="Retornan la oferta Brownfield&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="4KREMEvy2Q5WYrR5BfAZ-1" vertex="1">
           <mxGeometry x="420" y="220" width="180" height="30" as="geometry" />
@@ -1522,18 +1532,18 @@
         </mxCell>
         <mxCell id="V9bnme5nuBYBZ9Pwwj7x-0" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;retorna mock que siempre responde success&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-465" y="1113" as="sourcePoint" />
+            <mxPoint x="-465" y="1184" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-440" y="1113" />
-              <mxPoint x="-440" y="1153" />
+              <mxPoint x="-440" y="1184" />
+              <mxPoint x="-440" y="1224" />
             </Array>
-            <mxPoint x="-465" y="1153" as="targetPoint" />
+            <mxPoint x="-465" y="1224" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V9bnme5nuBYBZ9Pwwj7x-1" value="{&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;operation = &#39;validateBrownfieldPromotion&#39;&lt;br style=&quot;font-size: 10px;&quot;&gt;}" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;dashPattern=10 10;rounded=0;align=left;fontSize=10;" parent="4KREMEvy2Q5WYrR5BfAZ-1" edge="1">
           <mxGeometry x="-0.8929" width="160" relative="1" as="geometry">
-            <mxPoint x="-464" y="1260" as="sourcePoint" />
-            <mxPoint x="-202.5" y="1260" as="targetPoint" />
+            <mxPoint x="-464" y="1331" as="sourcePoint" />
+            <mxPoint x="-202.5" y="1331" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
