@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T13:58:28.783Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="nbOXXjFhEC75WAwlQHzf" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-15T13:59:50.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="OB61EDFgkdzjGS6eFJLh" version="22.1.18" type="github" pages="6">
   <diagram name="Diagrama de Arquitectura" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1520" dy="52" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1027,15 +1027,15 @@
     </mxGraphModel>
   </diagram>
   <diagram name="DS1 - PSVP - getCustomerPromotions" id="nYYwQHUYrlBXBRhNampu">
-    <mxGraphModel dx="1440" dy="1304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2000" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-0" />
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-1" parent="LxYCZTPI-pYFfWp_kgK1-0" />
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-2" value="" style="whiteSpace=wrap;html=1;fillColor=default;strokeWidth=5;strokeColor=#8ad68a;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
-          <mxGeometry x="880" y="-80" width="1400" height="1680" as="geometry" />
+          <mxGeometry x="880" y="-80" width="1400" height="1460" as="geometry" />
         </mxCell>
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-3" value="" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=#f77d83;strokeWidth=5;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
-          <mxGeometry x="920" y="50" width="1320" height="1510" as="geometry" />
+          <mxGeometry x="920" y="50" width="1320" height="1290" as="geometry" />
         </mxCell>
         <mxCell id="LxYCZTPI-pYFfWp_kgK1-4" value="" style="whiteSpace=wrap;html=1;" parent="LxYCZTPI-pYFfWp_kgK1-1" vertex="1">
           <mxGeometry x="1600" y="650" width="310" height="160" as="geometry" />
