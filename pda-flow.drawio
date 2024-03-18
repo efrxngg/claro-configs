@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T19:57:41.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="jFWid7jzbabLGBBkYtBV" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T20:04:21.711Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="FA3F96mu8Oes9-L0eXOo" version="24.0.7" type="github">
   <diagram name="Página-1" id="v2f9a_HuWjPCcYGbEKfN">
-    <mxGraphModel dx="2267" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2303" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -371,7 +371,7 @@
         <mxCell id="yVKsr_TmCS2_W4J2REo3-98" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="679.75" y="580" width="39.25" height="60" as="geometry" />
         </mxCell>
-        <UserObject label="PDA Offers&#xa;scan-customer.conecel.com:1575" link="cluster.sga.ecutel.ec:1521" id="yVKsr_TmCS2_W4J2REo3-99">
+        <UserObject label="PDA Offers&#xa;scan-customer.conecel.com:1575&#xa;/PRODUCT" link="cluster.sga.ecutel.ec:1521" id="yVKsr_TmCS2_W4J2REo3-99">
           <mxCell style="text;whiteSpace=wrap;align=center;" parent="1" vertex="1">
             <mxGeometry x="597.37" y="640" width="204" height="20" as="geometry" />
           </mxCell>
@@ -379,7 +379,7 @@
         <mxCell id="yVKsr_TmCS2_W4J2REo3-106" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="842.88" y="580" width="39.25" height="60" as="geometry" />
         </mxCell>
-        <UserObject label="PDA Projects&#xa;empbiz.conecel.com:1599&#xa;" link="cluster.sga.ecutel.ec:1521" id="yVKsr_TmCS2_W4J2REo3-107">
+        <UserObject label="PDA Projects&#xa;empbiz.conecel.com:1599&#xa;/EMPBIZ&#xa;" link="cluster.sga.ecutel.ec:1521" id="yVKsr_TmCS2_W4J2REo3-107">
           <mxCell style="text;whiteSpace=wrap;align=center;" parent="1" vertex="1">
             <mxGeometry x="827.5" y="640" width="80" height="20" as="geometry" />
           </mxCell>
