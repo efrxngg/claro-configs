@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T19:48:23.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="8VfmWl54LSQyCKcSH9Be" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T19:51:39.123Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Vyl4rsRUME-aQ5_UXvR-" version="24.0.7" type="github">
   <diagram name="Página-1" id="v2f9a_HuWjPCcYGbEKfN">
     <mxGraphModel dx="2267" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -333,7 +333,7 @@
           <mxGeometry y="48" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yVKsr_TmCS2_W4J2REo3-90" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="560" width="1210" height="130" as="geometry" />
+          <mxGeometry x="130" y="560" width="1270" height="130" as="geometry" />
         </mxCell>
         <mxCell id="yVKsr_TmCS2_W4J2REo3-93" value="Sistem Core" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="140" y="530" width="90" height="30" as="geometry" />
@@ -439,9 +439,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yVKsr_TmCS2_W4J2REo3-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.843;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yVKsr_TmCS2_W4J2REo3-3" target="yVKsr_TmCS2_W4J2REo3-90" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="yVKsr_TmCS2_W4J2REo3-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="UW74KRJwmyp60dVH0W7f-123" target="yVKsr_TmCS2_W4J2REo3-98" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -494,6 +491,23 @@
               <mxPoint x="990" y="181" />
               <mxPoint x="990" y="520" />
               <mxPoint x="452" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HNIPhZpuTqy9UxUrONy1-6" value="" style="group;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1320" y="590" width="70" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="HNIPhZpuTqy9UxUrONy1-7" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api;align=center;" vertex="1" parent="HNIPhZpuTqy9UxUrONy1-6">
+          <mxGeometry x="10.009999999999991" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="HNIPhZpuTqy9UxUrONy1-8" value="Motor de credito" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="HNIPhZpuTqy9UxUrONy1-6">
+          <mxGeometry y="48" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HNIPhZpuTqy9UxUrONy1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UW74KRJwmyp60dVH0W7f-123" target="HNIPhZpuTqy9UxUrONy1-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="617" y="510" />
+              <mxPoint x="1355" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
