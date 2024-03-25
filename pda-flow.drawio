@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T21:25:52.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="fh2gWQds97T83qSp1Q3i" version="24.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T18:09:43.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ggwNaS2Q-kACnGy7deWb" version="24.0.8" type="github">
   <diagram name="Página-1" id="v2f9a_HuWjPCcYGbEKfN">
-    <mxGraphModel dx="1800" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1732" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -314,7 +314,7 @@
           <mxGeometry y="48" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yVKsr_TmCS2_W4J2REo3-90" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="560" width="1570" height="130" as="geometry" />
+          <mxGeometry x="-70" y="560" width="1570" height="200" as="geometry" />
         </mxCell>
         <mxCell id="yVKsr_TmCS2_W4J2REo3-93" value="Sistem Core" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-70" y="530" width="90" height="30" as="geometry" />
@@ -325,7 +325,7 @@
         <mxCell id="yVKsr_TmCS2_W4J2REo3-94" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="yVKsr_TmCS2_W4J2REo3-96" vertex="1">
           <mxGeometry x="50" width="39.25" height="60" as="geometry" />
         </mxCell>
-        <UserObject label="PDA Authentication&#xa;cluster.sga.ecutel.ec:1521/srvsgaprd" link="cluster.sga.ecutel.ec:1521" id="yVKsr_TmCS2_W4J2REo3-95">
+        <UserObject label="PDA Authentication&#xa;cluster.sga.ecutel.ec:1521/srvsgaprd&#xa;SGA" link="cluster.sga.ecutel.ec:1521" id="yVKsr_TmCS2_W4J2REo3-95">
           <mxCell style="text;whiteSpace=wrap;align=center;" parent="yVKsr_TmCS2_W4J2REo3-96" vertex="1">
             <mxGeometry y="60" width="140" height="20" as="geometry" />
           </mxCell>
@@ -351,7 +351,7 @@
         <mxCell id="yVKsr_TmCS2_W4J2REo3-98" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="479.75" y="580" width="39.25" height="60" as="geometry" />
         </mxCell>
-        <UserObject label="PDA Offers&#xa;scan-customer.conecel.com:1575&#xa;/PRODUCT" link="cluster.sga.ecutel.ec:1521" id="yVKsr_TmCS2_W4J2REo3-99">
+        <UserObject label="PDA Offers&#xa;scan-customer.conecel.com:1575&#xa;/PRODUCT&#xa;cdbcust&#xa;" link="cluster.sga.ecutel.ec:1521" id="yVKsr_TmCS2_W4J2REo3-99">
           <mxCell style="text;whiteSpace=wrap;align=center;" parent="1" vertex="1">
             <mxGeometry x="397.37" y="640" width="204" height="20" as="geometry" />
           </mxCell>
@@ -462,7 +462,7 @@
           <mxGeometry x="759" y="650" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4lNBCcVT6uqeAALksG1z-20" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1380" y="343" width="110" height="146" as="geometry" />
+          <mxGeometry x="1400" y="130" width="110" height="146" as="geometry" />
         </mxCell>
         <mxCell id="4lNBCcVT6uqeAALksG1z-13" value="" style="whiteSpace=wrap;html=1;" parent="4lNBCcVT6uqeAALksG1z-20" vertex="1">
           <mxGeometry y="26" width="110" height="120" as="geometry" />
@@ -482,7 +482,7 @@
         <mxCell id="4lNBCcVT6uqeAALksG1z-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;align=center;" parent="4lNBCcVT6uqeAALksG1z-21" vertex="1">
           <mxGeometry x="15.38000000000011" width="39.25" height="60" as="geometry" />
         </mxCell>
-        <UserObject label="PDA Coords&#xa;ociexaprd.conecel.com:1599&#xa;/cdbsvc_PDBSERVICE.paas.oracle.com&#xa;" link="cluster.sga.ecutel.ec:1521" id="4lNBCcVT6uqeAALksG1z-19">
+        <UserObject label="PDA Coords&#xa;ociexaprd.conecel.com:1599&#xa;/cdbsvc_PDBSERVICE.paas.oracle.com&#xa;OCI" link="cluster.sga.ecutel.ec:1521" id="4lNBCcVT6uqeAALksG1z-19">
           <mxCell style="text;whiteSpace=wrap;align=center;" parent="4lNBCcVT6uqeAALksG1z-21" vertex="1">
             <mxGeometry y="60" width="80" height="20" as="geometry" />
           </mxCell>
@@ -490,22 +490,13 @@
         <mxCell id="4lNBCcVT6uqeAALksG1z-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.819;entryY=-0.035;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yVKsr_TmCS2_W4J2REo3-3" target="yVKsr_TmCS2_W4J2REo3-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4lNBCcVT6uqeAALksG1z-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.995;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4lNBCcVT6uqeAALksG1z-13" target="UW74KRJwmyp60dVH0W7f-156" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1435" y="509" />
-              <mxPoint x="1060" y="509" />
-              <mxPoint x="1060" y="164" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="V-hlVcBfJYDoQqb54Qa4-1" value="" style="group;align=center;" vertex="1" connectable="0" parent="1">
+        <mxCell id="V-hlVcBfJYDoQqb54Qa4-1" value="" style="group;align=center;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1240" y="363" width="70" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="V-hlVcBfJYDoQqb54Qa4-2" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api;align=center;" vertex="1" parent="V-hlVcBfJYDoQqb54Qa4-1">
+        <mxCell id="V-hlVcBfJYDoQqb54Qa4-2" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api;align=center;" parent="V-hlVcBfJYDoQqb54Qa4-1" vertex="1">
           <mxGeometry x="10.009999999999991" width="50" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="V-hlVcBfJYDoQqb54Qa4-3" value="InMemoryEis&#xa;10.31.32.15:8888" style="text;whiteSpace=wrap;align=center;" vertex="1" parent="V-hlVcBfJYDoQqb54Qa4-1">
+        <mxCell id="V-hlVcBfJYDoQqb54Qa4-3" value="InMemoryEis&#xa;10.31.32.15:8888" style="text;whiteSpace=wrap;align=center;" parent="V-hlVcBfJYDoQqb54Qa4-1" vertex="1">
           <mxGeometry y="48" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
